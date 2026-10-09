@@ -2,6 +2,7 @@ class Maudebox < Formula
   desc "Sandboxed dev container for Claude Code and other coding agents"
   homepage "https://github.com/martint/maudebox"
   url "https://github.com/martint/maudebox.git", branch: "main"
+  version "main"
   head "https://github.com/martint/maudebox.git", branch: "main"
 
   depends_on "rust" => :build
